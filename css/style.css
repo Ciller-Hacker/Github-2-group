@@ -1,7 +1,59 @@
-*{
+* {
   padding: 0;
   margin: 0;
   list-style-type: none;
   text-decoration: none;
+}
 
+.header {
+  width: 1414px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 100px;7
+  padding-bottom: 0;
+  
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  margin-right: 165px;
+}
+
+.header-items {
+  margin-right: 40px;
+}
+
+.header-items:hover {
+  color: #0082F3;
+}
+
+.about-contacts {
+  /* margin-bottom: 0;
+  width:108px ;
+  height: 36px;
+
+  margin-top: 100px;
+  transform: rotate(90deg);
+  background: #39CDCC;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 6px 6px; */
+  position: absolute;
+  width:108px ;
+  padding:8px 26px ;
+  transform: rotate(90deg);
+  height:36px ;
+  left: -35px;
+  top: 150px;
+  background: #39CDCC;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 6px 6px;
 }

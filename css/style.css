@@ -9,7 +9,7 @@
   width: 1414px;
   margin-left: auto;
   margin-right: auto;
-  padding: 45px 100px;7
+  padding: 45px 100px;
   padding-bottom: 0;
   
 }
@@ -56,4 +56,34 @@
   background: #39CDCC;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 0px 0px 6px 6px;
+}
+.store{
+background:#31C5A1 ;
+display: flex;
+justify-content: center;
+}
+.store__texts{
+  margin: 0 auto ;
+  max-width: 555px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.store__subtitle{
+  margin-top: 131px;
+  margin-bottom: 40px;
+  font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #FFFFFF;
+}
+.store__link{
+  margin-right: 10px;
+}
+.store__box{
+  margin-bottom: 80px;
 }

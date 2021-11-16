@@ -57,7 +57,159 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 0px 0px 6px 6px;
 }
-.store{
+
+/* -------------------- */
+/*    main section      */
+\*----------------------*/
+
+.boxes {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-title {
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 50px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.all-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 194px;
+    margin-right: 194px;
+}
+
+.box {
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s ease;
+  border-top: 13px solid #582EFF;
+}
+
+.box-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+  box-shadow: 0px 0px 10px #B7B7B7;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 75px;
+  padding-top: 151px;
+  
+}
+
+.first {
+  width: 268px;
+}
+
+.box:hover {
+    background: rgba(189, 188, 188, 0.096);
+    transform: translateY(-10px);
+}
+
+.box:active {
+  background: rgba(189, 188, 188, 0.315);
+  transition: none;
+  box-shadow: 0px 0px 10px #B7B7B7;
+}
+
+.box-title {
+  font-size: 17px;
+  line-height: 20px;
+  padding-bottom: 31px;
+}
+
+.box-text {
+  width: 262px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.box-link::before {
+  content: "";
+  background-image: url(../img/phone.png);
+  width: 53px;
+  height: 60px;
+  background-repeat: no-repeat;
+  padding-top: 91px;
+  padding-left: 60px;
+}
+
+.second-box {
+  width: 303px;
+  border-top: 13px solid #FF814A;
+}
+
+.second {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 151px;
+}
+
+.second::before {
+  content: "";
+  background-image: url(../img/list.png);
+  width: 70px;
+  height: 60px;
+  background-repeat: no-repeat;
+  padding-top: 91px;
+  padding-left: 70px;
+} 
+
+.threed-box {
+width: 277px;
+border-top: 13px solid #31C5A1;
+}
+
+.threed {
+padding-left: 7.5px;
+padding-right: 7.5px;
+padding-bottom: 75px;
+padding-top: 151px;
+}
+
+.threed::before {
+content: "";
+background-image: url(../img/money.png);
+width: 78px;
+height: 68px;
+background-repeat: no-repeat;
+padding-top: 91px;
+padding-left: 80px;
+} 
+
+.left {
+border: none;
+background: #582EFF;
+padding: 10px 15px;
+border-radius: 50%;
+transition: all 0.5s ease;
+}
+
+.left:hover {
+background: #582eff98;
+}
+
+.left:active {
+background: #2a157a;
+transition: none;
+}
+
+
+/* -------------------- */
+/*    main section      */
+\*----------------------*/
+
+
+.store {
 background:#31C5A1 ;
 display: flex;
 justify-content: center;
@@ -87,3 +239,5 @@ color: #FFFFFF;
 .store__box{
   margin-bottom: 80px;
 }
+
+
